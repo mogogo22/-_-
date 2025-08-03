@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #0c2900;
+    color: rgb(51, 51, 51);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,11 +84,11 @@ nav ul li a:hover {
 .service-box h2 {
     margin: 0px 0;
     font-size: 18px;
-    color: #007bff;
+    color: #ffffff;
 }
 
 .service-box {
-    background: #ffffff;
+    background: #036300;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -168,12 +168,6 @@ body.dark-mode .noob li a{
 
 
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 0 0 10px 0;
-    }
     .container {
         margin-top: 200px;
         flex-direction: column;
@@ -181,3 +175,94 @@ body.dark-mode .noob li a{
     }
 }
 
+section{
+    padding: 100px 0;
+}
+
+.se1{
+    background-image: url(img/WhatsAp78.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.foot{
+    align-items: center;
+    height: 50px;
+    color: #fff;
+    padding: 0 10px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #222;
+}
+.links a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(0, 175, 219);
+    margin: 8px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ssss{
+    color: rgb(87, 87, 252);
+}
+.links a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+    padding: 0 10px;
+
+}
+.fop{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pipi{
+    font-size: 20px;
+    font-weight: 700;
+}
+.gep{
+    border-radius: 500px;
+    width: 100px;
+}
+.don{
+    color: #fff;
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    opacity: 70%;
+    padding: 10px 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 60px 30px;
+    }
+    .pip {
+        font-size: 18px;
+    }
+    .pipi{
+        font-size: 15px;
+    }
+    .foot{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        padding: 60px 30px;
+    }
+    .pip {
+        font-size: 18px;
+    }
+    .pipi{
+        font-size: 15px;
+    }
+    .foot{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
